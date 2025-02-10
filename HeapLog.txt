@@ -1,0 +1,13 @@
+Op: Allocate(var1, 20) successful
+Op: Allocate(var2, 20) successful
+Op: Allocate(var3, 20) successful
+Op: Allocate(var4, 20) successful
+Op: Free(var2) successful
+Op: Free(var3) successful
+Op: Free(var3) failed
+Op: Allocate(var6, 30) successful
+Op: Allocate(var7, 5) successful
+Op: Allocate(var8, 30) successful
+Op: Allocate(var9, 3) successful
+Op: Written into file HeapState.txt
+EXITING
